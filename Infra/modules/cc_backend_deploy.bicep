@@ -42,7 +42,7 @@ resource StorageAccount 'Microsoft.Storage/storageAccounts@2022-05-01' = {
 }
 
 resource HostingPlan 'Microsoft.Web/serverfarms@2021-03-01' = {
-  name: FunctionAppName
+  name: '${FunctionAppName}-plan1234'
   location: Location
   sku: {
     name: 'Y1'

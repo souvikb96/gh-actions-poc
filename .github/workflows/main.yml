@@ -22,8 +22,8 @@ jobs:
     - name: deploy
       uses: azure/arm-deploy@v1
       with:
-        subscriptionId: 'Souvik-Free-Trial'
-        resourceGroupName: 'rg-poc-aqua-cicd'
+        subscriptionId: 'Pay-As-You-Go-Main'
+        resourceGroupName: 'rg-aqua-private-network-poc'
         template: ./Infra/main.bicep
         parameters: ./Infra/program.parameters.json
         failOnStdErr: false
