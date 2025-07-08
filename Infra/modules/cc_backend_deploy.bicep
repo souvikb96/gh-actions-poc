@@ -48,6 +48,7 @@ resource HostingPlan 'Microsoft.Web/serverfarms@2021-03-01' = {
     name: 'Y1'
     tier: 'Dynamic'
   }
+  kind:'functionapp'
   properties: {}
 }
 

@@ -9,7 +9,7 @@
         "value": "ccbackenddev123"
       },
       "Location": {
-        "value": "East US"
+        "value": "eastus"
       },
       "Runtime": {
         "value": "node"
