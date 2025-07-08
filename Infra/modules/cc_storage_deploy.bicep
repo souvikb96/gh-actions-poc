@@ -43,7 +43,7 @@ resource AppLogContainer 'Microsoft.Storage/storageAccounts/blobServices/contain
   parent: BlobService
   name: AppLogContainerName
   properties: {
-    publicAccess: 'Blob'
+    publicAccess: 'Container'
     metadata: {}
   }
 }
