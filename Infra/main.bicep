@@ -51,7 +51,7 @@ module StorageAccount 'modules/cc_storage_deploy.bicep' = {
 
 
 module FunctionApp 'modules/cc_backend_deploy.bicep' = {
-  name: 'Function App'
+  name: 'FunctionApp'
   params: {
     Location: Location
     StorageAccountName: StorageAccountName
