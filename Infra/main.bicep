@@ -3,7 +3,7 @@
 @description('The name of the function app that you wish to create.')
 param FunctionAppName string
 
-@description('Storage Account type')
+@description('Storage Account type.')
 @allowed([
   'Standard_LRS'
   'Standard_GRS'
