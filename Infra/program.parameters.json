@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "SubscriptionId": {
+        "value": "b263ecd2-b889-403f-9a55-976adbffc94a"
+      },
+      "FunctionAppName": {
+        "value": "ccbackenddev123"
+      },
+      "Location": {
+        "value": "central india"
+      },
+      "Runtime": {
+        "value": "node"
+      },
+      "StorageAccountType": {
+        "value": "Standard_LRS"
+      },
+      "StorageAccountName": {
+        "value": "aquastoragedev1234"
+      },
+      "AppLogContainerName": {
+        "value": "logfile"
+      },
+      "AppLogFileName": {
+        "value": "log"
+      },
+      "TenantID": {
+        "value": "b16b5078-3c36-482e-b98e-b986822e8f7f"
+      }
+    }
+  }
