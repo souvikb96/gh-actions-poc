@@ -11,7 +11,7 @@ param FunctionAppName string
 ])
 param StorageAccountType string
 
-@description('Storage Account Name')
+@description('Storage Account Name.')
 param StorageAccountName string
 
 @description('Location for all resources.')
