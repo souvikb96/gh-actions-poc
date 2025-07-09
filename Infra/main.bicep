@@ -38,7 +38,6 @@ param TenantID string
 param SubscriptionId string
 
 
-
 module StorageAccount 'modules/cc_storage_deploy.bicep' = {
   name: 'StorageAccount'
   params: {
